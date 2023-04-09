@@ -13,6 +13,7 @@ const reviews = [
       job: "Web Developer",
       img:
         "./Assets/profile pic6.jpg",
+        icon: "",
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis atque neque aut laudantium illo incidunt error aliquam eius minima amet. Ad beatae, culpa obcaecati quam cupiditate similique consequatur! Inventore, et.Debitis atque neque aut laudantium illo incidunt error aliquam eius minima amet. Ad beatae, culpa obcaecati quam cupiditate similique consequatur! Inventore, et."
     },

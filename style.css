@@ -11,20 +11,19 @@ body{
 .reviewBox{
     margin: 100px auto;
     width: 560px;
-    height: 450px;
+    min-height: 450px;
     box-shadow: 1px 1px 15px 6px rgb(104, 104, 104);
     border-radius: 8px;
     background-color: rgb(2, 2, 36);
     text-align: center;
-    padding-top: 30px;
-    text-transform: capitalize;
-    
+    padding-top: 15px;
+    text-transform: capitalize;    
 }
 .image{
     position: relative;
     width: 150px;
     margin: 0px auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     height: 150px;
     border-radius: 50%;
     border: 5px solid rgb(255, 186, 57);
@@ -36,13 +35,18 @@ body{
     border-radius: 50%;
     overflow: hidden;
 }
+.profileDetail{
+    color: whitesmoke;
+    font-size: 20px;
+    /* border: 1px solid greenyellow; */
+}
 .jobTitle{
     color: greenyellow;
     font-size: 16px;
 }
 .jobDiscrp{
     color:rgb(255, 193, 37);
-    padding: 20px;
+    padding: 12px 20px;
 }
 .reviewBox i{
     cursor: pointer;
@@ -67,4 +71,14 @@ body{
 }
 .randomBtn:active{
     transform: scale(0.9);
+}
+.icons{
+    /* border: 1px solid greenyellow; */
+    width: 40px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa-star{
+    font-size: 20px !important;
 }
