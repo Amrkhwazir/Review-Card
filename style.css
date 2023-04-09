@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212, 235, 255);
+    font-family: monospace;
+    
+}
+.reviewBox{
+    margin: 100px auto;
+    width: 560px;
+    height: 450px;
+    box-shadow: 1px 1px 15px 6px rgb(104, 104, 104);
+    border-radius: 8px;
+    background-color: rgb(2, 2, 36);
+    text-align: center;
+    padding-top: 30px;
+    text-transform: capitalize;
+    
+}
+.image{
+    position: relative;
+    width: 150px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 186, 57);
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.jobTitle{
+    color: greenyellow;
+    font-size: 16px;
+}
+.jobDiscrp{
+    color:rgb(255, 193, 37);
+    padding: 20px;
+}
+.reviewBox i{
+    cursor: pointer;
+    font-size: 30px;
+    color: greenyellow;
+}
+.reviewBox i:active{
+    color: black;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.randomBtn{
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: greenyellow;
+    box-shadow: 1px 4px 10px 2px rgb(157, 156, 156);
+    color: black;
+}
+.randomBtn:active{
+    transform: scale(0.9);
+}
